@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CV Creator</title>
+        <link rel="stylesheet" type="text/css" href="principal.css">
+        
+        <script type="text/javascript" src="principal.js"></script>
+
+        <script async src="FontAwesome/js/brands.js"></script>
+        <script async src="FontAwesome/js/solid.js"></script>
+        <script async src="FontAwesome/js/fontawesome.js"></script>
+
+        <link rel='icon' type='image/png' href='Favicon/favicon.ico'>
+    </head>
+    <body >
+        
+            <div id='superior'style='height: 70px;background-color: aliceblue;'>
+               <a id='LOGO'href='#'> <img style='width: 200px;height: 40px;'src='NombreMarca.JPG'></img>[LOGO] Cv Creator</a>
+               
+                <ul style='float:right; margin-right: 5%;'>
+                    <li>Contactar </li>|
+                    <li>FAQ </li>|
+                    <li>Inicio Sesión </li>|
+                    <li>Registro </li>|
+                    <li>Idioma</li>
+                </ul>
+            </div>
+           
+        
+            <div id='principal'>
+               
+                <div id='menu'> 
+                    <div>
+                        <ul id='NavBar'>
+                            <li onclick='CambioMenu(0)'><div style='background-color:rgba(102, 102, 236, 0.849) ;'>Contenido</div></li>
+                            <li onclick='CambioMenu(1)'><div>Editor</div></li>
+                            <li onclick='CambioMenu(2)'><div>Modelo</div></li>
+                        </ul>
+                    </div>
+
+                    <ul id='ListaContenido'>
+                        <li class='Titulo'><b>Datos Personales</b> <i style='margin-left: 1%;'onclick='EditarSeccion(0)'class="fas fa-edit"></i>  <div class='Verde'></div>
+                                
+                                <p>Nombre <input type='text'></p>
+                                <p>Apellidos <input type='text'></p>
+                                Foto <input type='file'>
+                                 
+                                    
+                            <!-- Editar Color -->
+                        </li>
+                        
+                        <hr>
+                        <li class='Titulo'><b>Formacion </b> <i style='margin-left: 1%;'onclick='EditarSeccion(1)'class="fas fa-edit"></i>   <div class='Verde'></div></li>
+                        <hr>
+                        <li class='Titulo'><b>Experiencia </b> <i style='margin-left: 1%;'onclick='EditarSeccion(2)'class="fas fa-edit"></i>   <div class='Verde'></div></li>
+                        <hr>                       
+                        <li class='Titulo'><b>Datos de Contacto </b> <i style='margin-left: 1%;'onclick='EditarSeccion(3)'class="fas fa-edit"></i>  <div class='Verde'></div>
+                            <ul>
+                                <li>Tlfno</li>
+                                <li>Linkedin</li>
+                                <li>Whattsapp</li>
+                                <li>Twitter</li>
+                            </ul>
+
+                        </li>
+                        <hr>
+                        <div id='AñadirExtras'></div>
+                        <li onclick='CrearSeccionNueva()'><b>Añadir Nueva Seccion</b> <i style='margin-left: 1%;'class="fas fa-plus"></i>  <div class='Verde'></div></li>
+                    </ul>
+                    <ul id='ListaColores'></ul>
+                    <ul id='ListaModelo'></ul>
+                  
+                </div>
+                <div id='creador'>
+                    <div id='formulario'>
+                    <hr style='border:0px'>
+                        <div id='Datos Personales' style='position:relative;background-color: rgb(175, 200, 219);height: 10%;width: 80%;margin-left: auto;margin-right: auto;'>
+                        
+                            (FOTO) Nombre y Apellidos
+                        </div>
+                        <div id='Adicional'  style='float:left;background-color: rgb(85, 193, 197);height: 78%;width: 19%;margin-top:2%;margin-left: auto;margin-right: auto;'></div>
+                        <div id='General' style='float:right;background-color: blue;height: 78%;width: 80%;margin-top:2%;margin-left: auto;margin-right: auto;'>
+                            <div id='Formacion' style='background-color: rgb(85, 193, 197);height: 45%;width: 80%;margin-top:2%;margin-left: auto;margin-right: auto;'></div>
+                            <div id='Experiencia' style='background-color: rgb(85, 193, 197);height: 45%;width: 80%;margin-top:2%;margin-left: auto;margin-right: auto; '></div>
+                        </div>
+                   
+                      
+                    </div>
+
+                </div>
+            </div>
+            
+
+
+
+
+
+     
+        <!--
+        <table style='width: 100%;height: 100%;border-collapse: collapse;background-color:rgb(136, 136, 219)'>
+            
+            <tr style='background-color: rgb(136, 136, 219);height:400px;'>
+                <td style='height: 380px;width: 600;'>        
+                    <div style='color:aliceblue;'>s</div>  
+                </td>
+                <td >
+                    <div style='background-color: rgb(244, 244, 247);'>s</div>
+                </td>
+            </tr>
+        </table>
+
+        
+        --> 
+        <script>
+            document.onload = Inicial(0);
+        </script>
+        <p>Created by Septimus</p>
+    </body>
+
+    <!-- By Septimus-->
+</html>

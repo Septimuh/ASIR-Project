@@ -1,0 +1,132 @@
+body
+{
+    background-color: rgb(214, 235, 243);
+}
+.Titulo>b>input
+{
+    background-color:rgba(124, 124, 243, 0.726);
+    border:0;
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+li
+{
+    list-style:none;
+}
+
+i
+{
+    font-size:15px;
+}
+div#superior
+{
+    box-shadow:  2px 2px 2px 2px rgba(188, 193, 212, 0.918);
+}            
+div#principal
+{
+    margin:auto;
+    margin-top:15px;
+    width: 99%;
+    height: 800px;
+    border-collapse: collapse;
+    /*background-color:rgb(136, 136, 219);*/
+
+}
+div#menu
+{
+    float:left;
+    width: 41%;
+    height: 100%;
+    box-shadow:  5px 5px 5px 5px rgba(79, 103, 182, 0.89);
+    background-color:rgba(102, 102, 236, 0.849);
+}
+#NavBar>li
+{
+    display:inline;
+}
+div#creador
+{
+    float:right;
+   
+    /*margin-top: 1%;*/
+    width: 58%;
+    height: 100%;
+    background-color: rgb(214, 235, 243);
+}
+div#formulario
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 80%;
+    height: 90%;
+    background-color: rgb(244, 244, 245);
+    box-shadow:  5px 10px 10px 10px rgba(79, 114, 228, 0.226);
+}
+
+#superior>ul li
+{
+    display: inline;
+}
+#NavBar>li>div
+{
+    margin-left: -4%;
+    font-size: 30px;
+    background-color: rgb(79, 79, 192);
+    width: 34%;
+    display:inline-block;
+
+
+}
+
+#LOGO
+{
+    float:left;
+    position: relative;
+    margin-top:1%;
+    
+}
+#menu>ul>li>div
+{
+    float:right;
+    margin-right: 5%;
+    margin-top: auto;
+}
+
+#menu>ul>hr,#AñadirExtras>hr
+{
+    border: 3px solid rgb(171, 189, 226);
+}    
+
+#ListaContenido>li>p>input
+{
+    background-color:rgba(124, 124, 243, 0.726);
+    border:1px solid rgb(75, 164, 223);
+}
+
+/*
+#menu>ul>li>a
+{
+    color:rgb(73, 187, 177);
+}
+*/
+
+.Titulo
+{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Titulo>b
+{
+    font-size: 25px;
+}
+
+.Verde
+{
+    float:right;
+}
+
+/*By Septimus*/
