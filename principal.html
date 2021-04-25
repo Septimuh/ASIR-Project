@@ -36,7 +36,9 @@
                             <li onclick='CambioMenu(0)'><div style='background-color:rgba(102, 102, 236, 0.849) ;'>Contenido</div></li>
                             <li onclick='CambioMenu(1)'><div>Editor</div></li>
                             <li onclick='CambioMenu(2)'><div>Modelo</div></li>
+
                         </ul>
+
                     </div>
 
                     <ul id='ListaContenido'>
@@ -44,35 +46,46 @@
                                 
                                 <p>Nombre <input type='text'></p>
                                 <p>Apellidos <input type='text'></p>
-                                Foto <input type='file'>
+                                <p>Foto <input type='file'></p>
                                  
                                     
                             <!-- Editar Color -->
                         </li>
                         
                         <hr>
-                        <li class='Titulo'><b>Formacion </b> <i style='margin-left: 1%;'onclick='EditarSeccion(1)'class="fas fa-edit"></i>   <div class='Verde'></div></li>
+                        <li class='Titulo'><b>Formacion </b> <i style='margin-left: 1%;'onclick='EditarSeccion(1)'class="fas fa-edit"></i>   <div class='Verde'></div>
+                            <div> 
+                                <h4> <i>Formacion</i> - <a>Centro de Estudios</a> (<b>Fecha Inicio</b>-<b>Fecha Fin</b>)  <i style='margin-left: 1%;'class="fas fa-edit"></i></h4> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan tincidunt tellus, 
+                                    a varius lectus lobortis sit amet. Proin vulputate diam id mauris malesuada, sed auctor 
+                                    ante imperdiet. Praesent tincidunt nunc massa, ac condimentum felis eleifend et. Nullam 
+                                    eleifend gravida vulputate.
+
+                                </p>
+                            </div>
+                        </li>
                         <hr>
-                        <li class='Titulo'><b>Experiencia </b> <i style='margin-left: 1%;'onclick='EditarSeccion(2)'class="fas fa-edit"></i>   <div class='Verde'></div></li>
+                        <li class='Titulo'><b>Experiencia </b> <i style='margin-left: 1%;'onclick='EditarSeccion(2)'class="fas fa-edit"></i>   <div class='Verde'></div>
+                        </li>
                         <hr>                       
                         <li class='Titulo'><b>Datos de Contacto </b> <i style='margin-left: 1%;'onclick='EditarSeccion(3)'class="fas fa-edit"></i>  <div class='Verde'></div>
                             <ul>
                                 <li>Tlfno</li>
                                 <li>Linkedin</li>
-                                <li>Whattsapp</li>
                                 <li>Twitter</li>
                             </ul>
 
                         </li>
                         <hr>
                         <div id='AñadirExtras'></div>
-                        <li onclick='CrearSeccionNueva()'><b>Añadir Nueva Seccion</b> <i style='margin-left: 1%;'class="fas fa-plus"></i>  <div class='Verde'></div></li>
+                        <li onclick='CrearSeccionNueva()'><b>Añadir Nueva Seccion</b> <i style='margin-left: 1%;'class="fas fa-plus"></i>  </li>
                     </ul>
                     <ul id='ListaColores'></ul>
                     <ul id='ListaModelo'></ul>
                   
                 </div>
                 <div id='creador'>
+                        <button style='margin-left:2%;margin-top:0.5%'onclick='CargaCV()'><i class="fas fa-sync"></i></button>
                     <div id='formulario'>
                     <hr style='border:0px'>
                         <div id='Datos Personales' style='position:relative;background-color: rgb(175, 200, 219);height: 10%;width: 80%;margin-left: auto;margin-right: auto;'>
